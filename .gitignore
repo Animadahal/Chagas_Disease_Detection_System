@@ -1,0 +1,34 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Streamlit local config and secrets
+.streamlit/secrets.toml
+
+# Environment / credentials
+.env
+.env.*
+*.key
+*.pem
+
+# Model training scratch output
+*.log
+checkpoints/
+outputs/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
